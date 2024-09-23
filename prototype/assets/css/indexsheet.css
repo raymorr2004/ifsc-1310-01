@@ -1,0 +1,89 @@
+body {
+background-color: beige;
+}
+
+header {
+background-color: darkkhaki;
+width:500px;
+}
+
+header h1 {
+color: cyan;
+}
+
+nav {
+background-color: bisque;
+width: 500px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+font-size: larger;
+color: deeppink;
+}
+
+#thoughts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: lightyellow;
+    width: 800px;
+    color:cornflowerblue;
+}
+
+#thoughts h3 {
+width: 700px;
+}
+
+#thoughts p {
+    width: 700px;
+
+}
+
+#thoughts a {
+    text-decoration: none;
+}
+
+#thoughts a:hover {
+    font-size:larger;
+    color: deeppink;
+}
+
+#NextAssignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: lightyellow;
+    width: 800px;
+    color:cornflowerblue;
+}
+
+#NextAssignment h3 {
+width: 700px;
+}
+
+#NextAssignment p {
+width: 700px;
+}
+
+#NextAssignment a {
+    text-decoration: none;
+}
+
+#NextAssignment a:hover {
+font-size: larger;
+color: deeppink;
+}
