@@ -1,3 +1,32 @@
+/* CSS Demo Page Stylesheet */
+
+/* Colors
+
+#2FCCD1 - Background
+#2C3333 - Text
+#3FA8AC - Secondary Color
+#14ECF4 - Outline Color
+#458588 - Additional
+#416263 - Additional
+#323E3F - Additional
+
+*/
+
+/*  ---------------Box Sizing-----------------  */
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 body{
-    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2FCCD1;
 }
+

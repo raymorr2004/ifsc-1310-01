@@ -1,28 +1,29 @@
 body {
-background-color: beige;
+background-color: #AC3AF0;
 }
 
 header {
-background-color: darkkhaki;
+background-color: #B05694;
 width:500px;
 }
 
 header h1 {
-color: cyan;
+color: #3AF08E;
 }
 
 nav {
-background-color: bisque;
+background-color: #82599B;
 width: 500px;
 }
 
 nav a {
+    color:#619B59;
     text-decoration: none;
 }
 
 nav a:hover {
 font-size: larger;
-color: deeppink;
+color: #51F03A;
 }
 
 #thoughts {
@@ -34,9 +35,8 @@ color: deeppink;
     float: left;
     border: 2px solid black;
     border-radius: 50px;
-    background-color: lightyellow;
+    background-color: #B041A9;
     width: 800px;
-    color:cornflowerblue;
 }
 
 #thoughts h3 {
@@ -44,17 +44,19 @@ width: 700px;
 }
 
 #thoughts p {
+    color:#B5F01D ;
     width: 700px;
 
 }
 
 #thoughts a {
+    color:#41B04C ;
     text-decoration: none;
 }
 
 #thoughts a:hover {
     font-size:larger;
-    color: deeppink;
+    color: #51F03A;
 }
 
 #NextAssignment {
@@ -66,9 +68,9 @@ width: 700px;
     float: left;
     border: 2px solid black;
     border-radius: 50px;
-    background-color: lightyellow;
+    background-color: #B041A9;
     width: 800px;
-    color:cornflowerblue;
+    color:#1DF031;
 }
 
 #NextAssignment h3 {
@@ -76,14 +78,16 @@ width: 700px;
 }
 
 #NextAssignment p {
+    color: #B5F01D;
 width: 700px;
 }
 
 #NextAssignment a {
+    color: #41B04C;
     text-decoration: none;
 }
 
 #NextAssignment a:hover {
 font-size: larger;
-color: deeppink;
+color: #51F03A;
 }
