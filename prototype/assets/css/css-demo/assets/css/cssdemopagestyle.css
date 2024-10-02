@@ -59,17 +59,6 @@ header.primary h2 {
   color:#ffffff;
 }
 
-header.primary nav {
-  
-}
-
-header.primary nav ul {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-padding: 0;
-}
-
 header.primary nav ul li {
 list-style-type: none;
 padding: 10px;
