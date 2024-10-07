@@ -60,7 +60,7 @@ width: 700px;
     color: #51F03A;
 }
 
-#NextAssignment {
+#flexboxfroggy {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -74,21 +74,32 @@ width: 700px;
     color:#1DF031;
 }
 
-#NextAssignment h3 {
+#flexboxfroggy h3 {
 width: 700px;
 }
 
-#NextAssignment p {
+#flexboxfroggy p {
     color: #B5F01D;
 width: 700px;
 }
 
-#NextAssignment a {
+#flexboxfroggy a {
     color: #41B04C;
     text-decoration: none;
 }
 
-#NextAssignment a:hover {
+#flexboxfroggy a:hover {
 font-size: larger;
 color: #51F03A;
+}
+
+#flexboxfroggy img {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#flexboxfroggy img:hover {
+    width: 800px;
+    height:500px;
 }
