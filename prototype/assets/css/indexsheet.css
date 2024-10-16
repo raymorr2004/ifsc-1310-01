@@ -5,7 +5,10 @@ background-color: #AC3AF0;
 
 header {
 background-color: #B05694;
-width:500px;
+width:300px;
+padding:10px;
+border-radius:50px;
+margin:auto;
 }
 
 header h1 {
@@ -13,8 +16,12 @@ color: #3AF08E;
 }
 
 nav {
-background-color: #82599B;
+background-color: rgb(134, 64, 239);
+padding:10px;
 width: 500px;
+border-radius:50px;
+margin:auto;
+padding-bottom: 20px;
 }
 
 nav a {
@@ -71,7 +78,6 @@ width: 700px;
     border-radius: 50px;
     background-color: #B041A9;
     width: 800px;
-    color:#1DF031;
 }
 
 #flexboxfroggy h3 {
@@ -103,3 +109,37 @@ color: #51F03A;
     width: 600px;
     height:400px;
 }
+
+#nextassignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #B041A9;
+    width: 800px;
+    color:#1DF031;
+}
+
+#nextassignment h3 {
+    width: 700px;
+    }
+    
+    #nextassignment p {
+        color:#B5F01D ;
+        width: 700px;
+    
+    }
+    
+    #nextassignment a {
+        color:#41B04C ;
+        text-decoration: none;
+    }
+    
+    #nextassignment a:hover {
+        font-size:larger;
+        color: #51F03A;
+    }
