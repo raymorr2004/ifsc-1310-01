@@ -34,7 +34,7 @@ font-size: larger;
 color: #51F03A;
 }
 
-#thoughts {
+.assignment {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -47,56 +47,23 @@ color: #51F03A;
     width: 800px;
 }
 
-#thoughts h3 {
-width: 700px;
+.assignment h3 {
+    width:700px;
 }
 
-#thoughts p {
+.assignment p {
     color:#B5F01D ;
     width: 700px;
-
 }
 
-#thoughts a {
+.assignment a {
     color:#41B04C ;
     text-decoration: none;
 }
 
-#thoughts a:hover {
+.assignment a:hover {
     font-size:larger;
     color: #51F03A;
-}
-
-#flexboxfroggy {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    text-align: center;
-    float: left;
-    border: 2px solid black;
-    border-radius: 50px;
-    background-color: #B041A9;
-    width: 800px;
-}
-
-#flexboxfroggy h3 {
-width: 700px;
-}
-
-#flexboxfroggy p {
-    color: #B5F01D;
-width: 700px;
-}
-
-#flexboxfroggy a {
-    color: #41B04C;
-    text-decoration: none;
-}
-
-#flexboxfroggy a:hover {
-font-size: larger;
-color: #51F03A;
 }
 
 #flexboxfroggy img {
@@ -109,37 +76,3 @@ color: #51F03A;
     width: 600px;
     height:400px;
 }
-
-#nextassignment {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    text-align: center;
-    float: left;
-    border: 2px solid black;
-    border-radius: 50px;
-    background-color: #B041A9;
-    width: 800px;
-    color:#1DF031;
-}
-
-#nextassignment h3 {
-    width: 700px;
-    }
-    
-    #nextassignment p {
-        color:#B5F01D ;
-        width: 700px;
-    
-    }
-    
-    #nextassignment a {
-        color:#41B04C ;
-        text-decoration: none;
-    }
-    
-    #nextassignment a:hover {
-        font-size:larger;
-        color: #51F03A;
-    }
