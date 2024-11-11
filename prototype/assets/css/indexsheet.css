@@ -40,20 +40,24 @@ color: #51F03A;
     justify-content: start;
     align-items: center;
     text-align: center;
+    position:relative;
     float: left;
     border: 2px solid black;
     border-radius: 50px;
     background-color: #B041A9;
-    width: 800px;
+    width: 33vw;
+    max-width:720px;
+    padding:10px;
+    overflow-wrap: normal;
 }
 
 .assignment h3 {
-    width:700px;
+    width:37.5vw;
 }
 
 .assignment p {
     color:#B5F01D ;
-    width: 700px;
+    width: 20vw;
 }
 
 .assignment a {
@@ -62,22 +66,23 @@ color: #51F03A;
 }
 
 .assignment a:hover {
-    font-size:larger;
+    transform:scale(1.5);
     color: #51F03A;
 }
 
 .assignment img {
-    width: 500px;
-    height: 300px;
+    width: 20vw;
+    height: 12.5vw;
     border-radius: 30px;
     transition: transform 0.3s ease;
 }
 
 .assignment img:hover {
-    transform:scale(1.5);
+    transform:scale(1.2);
 }
 
 #beartutorial img {
-    height:500px;
+    width:12.5vw;
+    height:12.5vw;
 }
 
