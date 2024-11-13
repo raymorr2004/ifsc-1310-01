@@ -194,7 +194,7 @@ article .articlediv p {
     border-radius: 50px;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45);
     height:100%;
-    max-height: 60vw;
+    max-height: 80vw;
     width:100%;
     max-width: 25vw;
 }
@@ -421,5 +421,37 @@ div#articlediv {
         font-weight: bold;
         color:#33B128;
         text-wrap:wrap;
+    }
+
+
+    .information #formarticle {
+        position:relative;
+    }
+
+    .information p#filloutform {
+        font-size: 2.5rem;
+        font-weight: bold;
+        position:absolute;
+        text-align: center;
+        float:left;
+        width:20vw;
+    }
+
+    #formarticle > div {
+        clear:both;
+        visibility: hidden; 
+    }
+
+    .information article#formarticle:hover {
+        text-wrap: wrap;
+    }
+
+    .information article#formarticle:hover p#filloutform {
+        visibility:hidden;
+    }
+
+    .information article#formarticle:hover div {
+        visibility:visible;
+        background: none;
     }
 
