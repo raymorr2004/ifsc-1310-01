@@ -87,5 +87,28 @@ color: #51F03A;
     height:12.5vw;
 }
 
+#finalreflection {
+    width:66vw;
+    max-width:1440px;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+}
+
+#divcontainer {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+
+#div1 {
+    padding-right:10px;
+}
+
+#div2 {
+    padding-left:10px;
+}
+
 
 
